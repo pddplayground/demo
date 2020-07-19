@@ -59,6 +59,5 @@ notifications:
   email:
     recipients:
       - pddplayground@gmail.com
-      - tithiwattong@gmail.com
     on_success: always # default: change
     on_failure: always # default: always
