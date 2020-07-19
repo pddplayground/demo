@@ -54,7 +54,11 @@ deploy:
     skip_cleanup: true
     on:
       branch: master
+
 notifications:
   email:
-    - pddplayground@gmail.com
-    - tithiwattong@gmail.com
+    recipients:
+      - pddplayground@gmail.com
+      - tithiwattong@gmail.com
+    on_success: always # default: change
+    on_failure: always # default: always
