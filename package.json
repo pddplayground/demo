@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Travis scripts examples for building and deploying an application in GKE (Google Kubernetes Engine)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Warning: skip testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pddplayground/demo.git"
+  },
+  "author": "", 
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pddplayground/demo/issues"
+  },
+  "homepage": "https://github.com/pddplayground/demo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
