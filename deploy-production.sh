@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -x
 
 docker build -t gcr.io/${PROJECT_NAME_PRD}/${DOCKER_IMAGE_NAME}:$TRAVIS_COMMIT .
 
