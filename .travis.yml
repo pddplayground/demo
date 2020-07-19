@@ -45,12 +45,12 @@ before_deploy:
 
 deploy:
   - provider: script
-    script: ./deploy-staging.sh
+    script: ./scripts/deploy-staging.sh
     skip_cleanup: true
     on:
       branch: development
   - provider: script
-    script: ./deploy-production.sh
+    script: ./scripts/deploy-production.sh
     skip_cleanup: true
     on:
       branch: master
