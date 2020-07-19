@@ -55,4 +55,6 @@ deploy:
     on:
       branch: master
 notifications:
-  email: true
+  email:
+    - pddplayground@gmail.com
+    - tithiwattong@gmail.com
