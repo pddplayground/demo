@@ -12,7 +12,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
   //res.send(`Hello World1`);
-  res.send(`Hello World from [ ${hostname} ]`);
+  res.send(`PDD Demo from [ ${hostname} ]`);
 });
 
 app.listen(PORT, HOST);
